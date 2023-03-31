@@ -1,3 +1,4 @@
+# mogu_blog_v2-FileRestApi#uploadPicsByUrl has a SSRF vulnerability
 ## 1、复现详情（Reproduction details）
 
 **构造BurpSuite请求报文，利用file协议读取文件/etc/passwd中的内容，写入到图片中：**
